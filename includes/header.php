@@ -19,3 +19,4 @@
     <![endif]-->
   </head>
   <body>
+    <?php include "includes/db.php"; ?>
