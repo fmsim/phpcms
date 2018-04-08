@@ -1,6 +1,6 @@
-<?php include "includes/admin_header.php"; ?>
+<?php include "includes/header.php"; ?>
     <!-- Navigation -->
-    <?php include "includes/admin_navigation.php"; ?>
+    <?php include "includes/navigation.php"; ?>
     <!-- Page Content -->
     <div class="container">
       <div class="row">
@@ -45,4 +45,4 @@
       </div> <!-- /.row -->
       <hr>
       <!-- Footer -->
-<?php include "includes/admin_footer.php"; ?>
+<?php include "includes/footer.php"; ?>
