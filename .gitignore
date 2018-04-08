@@ -1,7 +1,11 @@
 node_modules
+admin_db.php
 db.php
 bootstrap.css
 bootstrap.min.css
 bootstrap.js
 bootstrap.min.js
+bootstrap-rtl.css
+bootstrap-rtl.min.css
+sb-admin-rtl.css
 jquery.js

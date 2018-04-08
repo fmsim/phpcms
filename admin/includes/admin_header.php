@@ -1,3 +1,5 @@
+<?php ob_start(); ?> <!-- Turn on output buffering => header("...: ...") -->
+<?php include "./includes/admin_db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
