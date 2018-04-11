@@ -56,10 +56,10 @@
         <a href="javascript:;" data-toggle="collapse" data-target="#users-dropdown"><i class="fa fa-fw fa-arrows-v"></i> Users<i class="fa fa-fw fa-caret-down"></i></a>
         <ul id="users-dropdown" class="collapse">
           <li>
-            <a href="#">View all posts</a>
+            <a href="#">View all users</a>
           </li>
           <li>
-            <a href="#">Add posts</a>
+            <a href="#">Add user</a>
           </li>
         </ul>
       </li>

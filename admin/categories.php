@@ -35,7 +35,13 @@
                 <div class="form-group">
                   <input class="btn btn-primary" type="submit" name="submit" value="Add Category">
                 </div> <!-- .form-group -->
-              </form>
+              </form> <!-- Add Category -->
+              <?php
+                if (isset($_GET['edit'])) {
+                  $cat_id = $_GET['edit'];
+                  include "includes/update_categories.php";
+                }
+              ?>
             </div> <!-- .col-xs-6 -->
             <div class="col-xs-6">
               <table class="table table-bordered table-hover">
@@ -57,6 +63,7 @@
                       echo "<td>{$cat_id}</td>";
                       echo "<td>{$cat_title}</td>";
                       echo "<td><a href='categories.php?delete={$cat_id}'>Delete</a></td>";
+                      echo "<td><a href='categories.php?edit={$cat_id}'>Edit</a></td>";
                       echo "</tr>";
                     }
                   ?>
