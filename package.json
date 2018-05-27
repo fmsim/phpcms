@@ -13,9 +13,10 @@
   "author": "Frank Simon",
   "license": "ISC",
   "devDependencies": {
+    "arch": "^2.1.0",
     "browser-sync": "^2.23.7",
     "es6-promise": "^4.2.4",
-    "graceful-fs": "^4.1.11",
+    "graceful-fs": "^4.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",

@@ -1,5 +1,6 @@
 <?php ob_start(); ?> <!-- Turn on output buffering => header("...: ...") -->
 <?php include "../includes/db.php"; ?>
+<?php include "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +13,7 @@
       <!-- Bootstrap Core CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Custom CSS -->
-      <link href="css/sb-admin.css" rel="stylesheet">
+      <link href="css/admin.css" rel="stylesheet">
       <!-- Custom Fonts -->
       <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
