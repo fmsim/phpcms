@@ -13,16 +13,19 @@
   "author": "Frank Simon",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.2",
-    "es6-promise": "^4.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "browser-sync": "^2.23.7",
+    "es6-promise": "^4.2.4",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-plumber": "^1.1.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "hoek": "^5.0.3",
+    "minimatch": "^3.0.4"
   }
 }
